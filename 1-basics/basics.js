@@ -26,7 +26,8 @@ describe("basics", function() {
             ////////////////////////////////////////////////////////////////////
             // Declare "someVariable" in way so that the declaration is hoisted.
             // ✏️ ADD CODE HERE ✏️
-
+            var someVariable ;
+            someVariable=undefined
             ////////////////////////////////////////////////////////////////////
         });
     });
