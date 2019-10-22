@@ -12,7 +12,8 @@ describe("basics", function() {
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-            var  someVariable=true;                 
+            var  someVariable=true;
+                             
             ////////////////////////////////////////////////////////////////////
 
             expect(someVariable).to.equal(true);
@@ -26,8 +27,7 @@ describe("basics", function() {
             ////////////////////////////////////////////////////////////////////
             // Declare "someVariable" in way so that the declaration is hoisted.
             // ✏️ ADD CODE HERE ✏️
-            var someVariable ;
-            someVariable=undefined
+        
             ////////////////////////////////////////////////////////////////////
         });
     });
