@@ -51,7 +51,7 @@ describe("basics", function() {
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+            var someVariable=undefined;
             ////////////////////////////////////////////////////////////////////
 
             expect(typeof someVariable).to.equal("undefined");
