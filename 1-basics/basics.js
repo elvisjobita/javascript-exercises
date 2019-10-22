@@ -12,7 +12,7 @@ describe("basics", function() {
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+            var  someVariable=true;                 
             ////////////////////////////////////////////////////////////////////
 
             expect(someVariable).to.equal(true);
