@@ -255,6 +255,8 @@ describe("basics", function() {
             // By observing their casting behavior in the tests below, you can find
             // out the required types.
             // ✏️ ADD CODE HERE ✏️
+            const firstVariable = 1+2;
+            const secondVariable = "1";
 
             ////////////////////////////////////////////////////////////////////
 
@@ -272,6 +274,10 @@ describe("basics", function() {
             ////////////////////////////////////////////////////////////////////
             // Can you find a string that casts to `false` in an if() statement?
             // ✏️ ADD CODE HERE ✏️
+            const falsyString = "";
+            if(falsyString){
+                console.log("falsystring is not falsy")
+            };
 
             ////////////////////////////////////////////////////////////////////
 
