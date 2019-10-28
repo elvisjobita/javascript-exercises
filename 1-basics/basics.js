@@ -83,7 +83,7 @@ describe("basics", function() {
 
     describe("Writing big numbers without typing a lot zeros", function() {
         it("should run without errors", function() {
-            ////////////////////////////////////////////////////////////////////
+            ////////////////////////////////////////////////////////////////////.................\z     
             // We're searching for a big number written in way that we don't have to
             // write all the zeros.
             // Write it as a string so that the .length property can be checked.
