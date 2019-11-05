@@ -212,7 +212,7 @@ describe("basics", function() {
             const firstArray = [1, 2, 3];
 
             ////////////////////////////////////////////////////////////////////
-            // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from
+            // See https://developer.mozilla.org/en-US/docs/Wsseb/JavaScript/Reference/Global_Objects/Array/from
             // ✏️ ADD CODE HERE ✏️
             const secondArray = Array.of(...firstArray);
 
