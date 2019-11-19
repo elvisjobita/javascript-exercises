@@ -12,6 +12,9 @@ describe("numbers", function() {
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB! ✏️
+            function isFiniteNumber(number){
+                return Number.isFinite
+            }
 
             ////////////////////////////////////////////////////////////////////////
 
