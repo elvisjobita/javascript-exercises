@@ -74,7 +74,7 @@ describe("functions", function() {
             // Declare a constant 'answer' with the correct result.
             // If you call getContext() here, you're a cheater! :)
             // ✏️ ADD CODE HERE ✏️
-           const answer = getContext();
+           const answer = undefined();
             ////////////////////////////////////////////////////////////////////
 
             const result = getContext(); // <--- called without explicit context
@@ -98,6 +98,9 @@ describe("functions", function() {
             // and 'answerThirdResult' with the correct results.
             // If you call getContext() here, you're a cheater! :)
             // ✏️ ADD CODE HERE ✏️
+            const answerFirstResult = undefined;
+            const answerSecondResult = context;
+            const answerThirdResult = undefined;
 
             ////////////////////////////////////////////////////////////////////
 
@@ -136,6 +139,8 @@ describe("functions", function() {
             // and 'answerSecondResult' with the correct results.
             // If you call getContext() here, you're a cheater! :)
             // ✏️ ADD CODE HERE ✏️
+            const answerFirstResult = object;
+            const answerSecondResult = differentObject;
 
             ////////////////////////////////////////////////////////////////////
 
@@ -167,6 +172,7 @@ describe("functions", function() {
             // You're not allowed to define a new function here.
             // If you call getContext() here, you're a cheater! :)
             // ✏️ ADD CODE HERE ✏️
+
 
             ////////////////////////////////////////////////////////////////////
 
@@ -220,6 +226,8 @@ describe("functions", function() {
                 // Unfortunately, it does not specify any parameters.
                 // Find a way to retrieve the first argument without specifying a parameter.
                 // ✏️ ADD CODE HERE ✏️
+                const calledWithA = ("A");
+                const calledWithB = ("B");
 
                 ////////////////////////////////////////////////////////////////////
             }
